@@ -4,7 +4,7 @@ C++ program that systematically organizes information in a spreadsheet.
 ## Introduction
   This was a program that I created my sophomore year at Jacksonville State University. Its coded in C++ and takes an otherwise very messy spreadsheet and organizes each person, place, number, etc. with its respective partner and places it in an organized manner. The stepdown through the code can be seen below.
   
-## Necessary Tools and Important Tools
+## Necessary Code and Important Tools
   The code begins with me including vectors and maps. A vector in C++ is a list that can be added upon once its created. A map is a larger more broader storage container that stores items based on certain elements in mapped fashion. Both of these tools will be extremely helpful. The next thing I do is create constant strings to initialize the two files we will be dealing with. The input.csv and output.txt file. Next I create a struct that allows me to make a list of different strings related to the eleven categories within the spreadsheet. I then begin on the main function of the code. I begin by initializing a string called header that takes the header of the csv and stores it in a string. Following that, I create a person that uses the character struct datatype that I created earlier. This allows me to store information about an individual person. I then create a vector of people using the character datatype. This allows me to store individual information about many people in the csv.
   
 ## Reading and Outputing Information
